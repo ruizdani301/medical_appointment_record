@@ -20,8 +20,10 @@ app.use(json());
 
 // Get route modules
 import test from './routes/testGet.js';
+import users from './routes/users.js';
 
 // Blueprints of endpoints
-app.use('/api/dev', test) // localhost:3000/api/dev/testGet
+app.use('/api/dev', test) // localhost:3001/api/dev/testGet
+app.use('/api/user', users) // localhost:3001/api/user
 
 export default app;
