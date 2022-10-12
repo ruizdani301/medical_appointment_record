@@ -1,6 +1,6 @@
 // iniciar server
-const app = require('./src/app')
-const connectDB = require('./src/service/dbConnection')
+import app from './src/app.js';
+import connectDB from './src/service/dbConnection.js';
 
 async function runServer() {
   const PORT = process.env.PORT || 3000
