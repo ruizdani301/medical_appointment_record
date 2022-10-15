@@ -1,5 +1,5 @@
 // iniciar server
-import app from './src/app.js';
+import app from './src/config.js';
 import connectDB from './src/service/dbConnection.js';
 
 async function runServer() {

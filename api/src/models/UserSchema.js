@@ -8,4 +8,4 @@ const UserSchema = new mongoose.Schema({
   Password: { type: String, required: true }
 });
 
-export const User = mongoose.model("User", UserSchema);
+export const User = mongoose.model("User", UserSchema); // TODO: registra la coleccion en la base de datos
